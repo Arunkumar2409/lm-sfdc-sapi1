@@ -1,10 +1,29 @@
 {
-  "main": "lm-sfdc-sapi1.raml",
-  "name": "lm-sfdc-sapi1",
-  "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
-  "assetId": "lm-sfdc-sapi1",
+  "dependencies": [
+    {
+      "version": "1.0.0",
+      "assetId": "core-api-library1",
+      "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
+      "provided": false
+    },
+    {
+      "version": "1.0.4",
+      "assetId": "sfdc-sapif",
+      "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
+      "provided": false
+    },
+    {
+      "version": "1.0.1",
+      "assetId": "core-api-library",
+      "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
+      "provided": false
+    }
+  ],
   "version": "1.0.0",
+  "descriptorVersion": "1.0.0",
   "classifier": "raml",
-  "tags": [],
-  "descriptorVersion": "1.0.0"
+  "main": "lm-sfdc-sapi1.raml",
+  "assetId": "lm-sfdc-sapi1",
+  "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
+  "name": "lm-sfdc-sapi1"
 }
