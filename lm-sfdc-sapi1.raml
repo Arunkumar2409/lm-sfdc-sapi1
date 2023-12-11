@@ -22,8 +22,11 @@ uses:
           examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.0/example/customerPost-Response-example.raml
       400:
         body:
-          type: coreLib.errorResponseType
-          examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-client-failure-response-example.raml
+          application/json:
+            type: coreLib.errorResponseType
+            examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-client-failure-response-example.raml
+              
+
       
             
         
