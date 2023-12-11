@@ -84,7 +84,7 @@ uses:
             example: "Deleted"
     /order:
       post:
-        is: [coreLib.]
+        is: [coreLib.clientIdRequired,coreLib.needsCorrelationId]
         
         
               
