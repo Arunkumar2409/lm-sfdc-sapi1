@@ -63,8 +63,11 @@ uses:
       responses:
         200:
           body:
-            type: objec
-            example: "updated"
+            type: object
+            example:
+              {
+                message: "customer Updated"
+              }
         400:
           body:
             type: coreLib.errorResponseType
