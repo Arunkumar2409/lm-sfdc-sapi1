@@ -6,7 +6,7 @@ version: v1
 description: This is the API which provides the Customer data and order data
 uses:
   coreLib: exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/core-api-lib.raml
-  dataTypeLib:  exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.2/core-api-library1.raml
+  dataTypeLib:  exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/core-api-library1.raml
 
 /Customers:
   post:
@@ -15,7 +15,7 @@ uses:
     description: To create a new customer
     body:
       type: dataTypeLib.customer
-      examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.2/example/customerData-example.raml
+      examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/example/customerData-example.raml
     responses:
       201:
         body:
@@ -44,7 +44,7 @@ uses:
         200:
           body:
             type: dataTypeLib.customer
-            examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.2/example/customerData-example.raml
+            examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/example/customerData-example.raml
         400:
           body:
             type: coreLib.errorResponseType
@@ -59,7 +59,7 @@ uses:
       description: update customer detailsby using customer ID
       body:
         type: dataTypeLib.customer
-        examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.2/example/customerData-example.raml
+        examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/example/customerData-example.raml
       responses:
         200:
           body:
@@ -89,7 +89,7 @@ uses:
         description: create orders by the customer
         body:
           type: dataTypeLib.order
-          examples: !include 
+          examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/example/orderData-example.raml
             
         
         
