@@ -1,0 +1,10 @@
+{
+  "main": "lm-sfdc-sapi1.raml",
+  "name": "lm-sfdc-sapi1",
+  "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
+  "assetId": "lm-sfdc-sapi1",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}
