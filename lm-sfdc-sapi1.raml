@@ -49,10 +49,13 @@ uses:
             type: coreLib.errorResponseType
             examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-server-failure-response-example.raml
     patch:
-      is: [coreLib.clientIdRequired,coreLib.]
+      is: [coreLib.clientIdRequired,coreLib.needsCorrelationId]
       displayName: update customer
       description: update customer detailsby using customer ID
       body:
+        type: dataTypeLib.customer
+        examples: !include 
+          
         
               
               
