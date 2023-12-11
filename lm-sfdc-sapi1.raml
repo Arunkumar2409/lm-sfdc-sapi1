@@ -32,9 +32,13 @@ uses:
             examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-server-failure-response-example.raml
   /{ID}:
     get:
-      is: [coreLib.clientIdRequired,coreLib.]
+      is: [coreLib.clientIdRequired,coreLib.apiResponse]
       displayName: get customer data
       description: Get customer data by ID
+      responses:
+        200:
+          body:
+            type: 
 
       
               
