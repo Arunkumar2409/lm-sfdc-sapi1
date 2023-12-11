@@ -71,7 +71,11 @@ uses:
     delete:
       is: [coreLib.clientIdRequired,coreLib.needsCorrelationId]
       responses:
-        
+        204:
+          body:
+            type: string
+            example: "Deleted"
+              
         
               
         
