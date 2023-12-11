@@ -87,7 +87,11 @@ uses:
         is: [coreLib.clientIdRequired,coreLib.needsCorrelationId]
         displayName: create order
         description: create orders by the customer
-        
+        body:
+          type: dataTypeLib.order
+          examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.2/example/orderData-example.raml
+          
+            
         
         
               
