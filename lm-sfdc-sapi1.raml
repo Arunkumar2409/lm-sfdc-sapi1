@@ -63,7 +63,7 @@ uses:
       responses:
         200:
           body:
-            type: string
+            type: objec
             example: "updated"
         400:
           body:
@@ -80,8 +80,11 @@ uses:
       responses:
         200:
           body:
-            type: string
-            example: "Deleted"
+            type: object
+            example:
+              {
+                message: "Customer Deleted"
+              }
     /order:
       post:
         is: [coreLib.clientIdRequired,coreLib.needsCorrelationId]
