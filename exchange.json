@@ -19,5 +19,9 @@
   "main": "lm-sfdc-sapi1.raml",
   "assetId": "lm-sfdc-sapi1",
   "groupId": "9401a589-a992-4678-9f6b-f2f639e22832",
-  "name": "lm-sfdc-sapi1"
+  "name": "lm-sfdc-sapi1",
+  "organizationId": "9401a589-a992-4678-9f6b-f2f639e22832",
+  "apiVersion": "v1",
+  "tags": [],
+  "originalFormatVersion": "1.0"
 }
