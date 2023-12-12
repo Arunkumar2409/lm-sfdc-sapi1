@@ -1,4 +1,18 @@
 {
+  "dependencies": [
+    {
+      "version": "1.0.0",
+      "assetId": "core-api-library1",
+      "groupId": "af5968ee-d08a-4d4a-ab40-7f413c293ea3",
+      "provided": false
+    },
+    {
+      "version": "1.0.0",
+      "assetId": "core-api-library",
+      "groupId": "af5968ee-d08a-4d4a-ab40-7f413c293ea3",
+      "provided": false
+    }
+  ],
   "version": "1.0.0",
   "originalFormatVersion": "1.0",
   "apiVersion": "v1",
