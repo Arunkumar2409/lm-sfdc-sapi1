@@ -29,12 +29,12 @@ uses:
         body:
           application/json:
             type: coreLib.errorResponseType
-            examples: !include /exchange_modules/af5968ee-d08a-4d4a-ab40-7f413c293ea3/core-api-library/1.0.0/examples/api-client-failure-response-example.raml
+            examples: !include exchange_modules/af5968ee-d08a-4d4a-ab40-7f413c293ea3/core-api-library/1.0.0/examples/api-client-failure-response-example.raml
       500:
         body:
           application/json:
             type: coreLib.errorResponseType
-            examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-server-failure-response-example.raml
+            examples: !include exchange_modules/af5968ee-d08a-4d4a-ab40-7f413c293ea3/core-api-library/1.0.0/examples/api-server-failure-response-example.raml
   
   /{CustomerID}:
     get:
@@ -45,8 +45,7 @@ uses:
         200:
           body:
             type: dataTypeLib.customer
-            examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library1/1.0.3/example/customerData-example.raml
-        400:
+            examples: !include exchange_modules/af5968ee-d08a-4d4a-ab40-7f413c293ea3/core-api-library1/1.0.0/example/customerData-example.raml
           body:
             type: coreLib.errorResponseType
             examples: !include exchange_modules/9401a589-a992-4678-9f6b-f2f639e22832/core-api-library/1.0.1/examples/api-client-failure-response-example.raml
